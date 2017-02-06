@@ -1,0 +1,11 @@
+Instruction for running the code:
+
+Simulator link : http://www.cs.utah.edu/~rajeev/usimm-v1.3.tar.gz
+
+1} Unzip the simulator
+2} Replace the scheduler.c file in 'src/' folder of the simulator with the 'src/scheduler.c' file present in this submission
+3} Perform Make inside 'src/' folder of the simulator.
+4} Copy "runsim" and "gen_csv.pl" file from the submission to the simulator folder.
+5} Run "sh runsim" in the main folder of the simulator. 
+6} After all the 18 executions complete, run './gen_csv.pl --runscript runsim' to parse the results.
+7} The parsed result will be stored in a spredsheet file. The file will be "output/stats.csv"
